@@ -2,7 +2,7 @@
 - 1 นำตัวเครื่อง Ani-count มาเซ็ตค่า wifi password
 - 2 ใส่ MQTT Broker ADDRESS ที่ได้จาก MQTT Broker
 
-  ![2](../assets/img/วิธีการใช้งาน/2.jpg)
+  ![2](../assets/img/วิธีการใช้งาน/2.1.jpg)
   
 - 3 ตั้งค่า MQTT Broker ให้ Port เป็น 8884 และกด connect จากนั้นให้เปลี่ยน Topic บน MQTT Broker ตามใจชอบ และ Add new Topic Subscription ด้วยชื่อเดี่ยวกันเผื่อกันหลง จากนั้น Subscription
 
