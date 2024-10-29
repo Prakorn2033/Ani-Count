@@ -1,8 +1,8 @@
 # Ani-Count
 
 Physical Computing Project 2024 - IT KMITL
-[WebPage](https://prakorn2033.github.io/)
-[สมาชิก](https://github.com/Prakorn2033/Ani-Count/blob/main/README.md#contributors)
+- [WebPage](https://prakorn2033.github.io/)
+- [สมาชิก](https://github.com/Prakorn2033/Ani-Count/blob/main/README.md#contributors)
 
 ## Introduction to Ani-Count
 
