@@ -18,24 +18,39 @@ Arm Cortex-M4 48 MHz 32 kB RAM 256 kB Flash ทำงานร่วมกับ
 อุปกรณ์ทั้ง2ตัวใช้ในการรับค่าระยะทางที่แมวต้องเดินผ่าน และสุดท้าย MQTT เป็นโปรโตคอลการส่งข้อความที่อิงตามมาตรฐาน หรือชุดของกฎที่ใช้สำหรับการสื่อสารระหว่างเครื่องต่อเครื่อง
 เซ็นเซอร์อัจฉริยะ อุปกรณ์สวมใส่ และอุปกรณ์ Internet of Things (IoT) เพื่อนำข้อความหรือค่าที่ได้จาก MQTT มาใช้ในการสั่ง Ani-Count รับค่าจำนวนที่ต้องการในการนับ
 
+## Development Steps
+
+1. ศึกษาขั้นตอนการใช้งานเครื่องมือผ่าน Github ที่ได้เรียนมาและหาข้อมูลเสริมในส่วนที่ต้องการ
+2. ทดลองต่อบอร์ด Arduino เข้ากับ WifiและMQTT ที่หอ
+3. ลองเขียนโค็ดรับค่าจาก MQTT และส่งกลับไป
+4. เขียนฟังก์ชั่นการทำงานของ ULTRASONIC SENSOR และลองเอาค่าขึ้นไปบน MQTT
+5. เขียนฟังก์ชั่นรับค่าจาก MQTT ส่งค่าไป Loop ให้ทำตามเงื่อนไขที่กำหนด
+6. เช็คความสมบูรณ์ของโค็ดและให้บุคคลอื่นๆทดลอง Subscriptions และ Publish ค่าไปใช้ในการทำงานของตัว Ani-Count
+7. ประกอบชิ้นงานให้สวยงานทำเว็ปและคลิปเพื่อแสดงข้อมูลของ Project
+
+
 ## Contributors
 
 | รูป | รหัสนักศึกษา     | ชื่อ                  | ส่วนที่รับผิดชอบ               |
 | --- | -------- | --------------------- | ------------------------------ |
-|   <img height="150" src="img/Nam.png" width="150"/>  | 62070115 | นาย ปรากรณ์ คำเภา       | File System Type               |
+|   <img height="190" src="assets/img/Member/me.jpg" width="150"/>  | 62070115 | นาย ปรากรณ์ คำเภา       | Project : Ani-Count             |
 
 ## นำเสนอ
 
 | รูป | ชื่อ                  | ตำแหน่ง               |
 | --- | --------------------- | ------------------------------ |
-|   <img height="150" src="img/Nam.png" width="150"/>  | รศ.ดร. ปานวิทย์ ธุวะนุติ       | อาจารย์ประจำวิชา Physical Computing            |
-|   <img height="150" src="img/Nam.png" width="150"/>  | รศ.ดร. กิติ์สุชาต พสุภา      | อาจารย์ประจำวิชา Physical Computing            |
+|   <img height="150" src="assets/img/T/T.Panwit.jpg" width="150"/>  | รศ.ดร. ปานวิทย์ ธุวะนุติ       | อาจารย์ประจำวิชา Physical Computing            |
+|   <img height="150" src="assets/img/T/T.Kitsuchart.jpg" width="150"/>  | รศ.ดร. กิติ์สุชาต พสุภา      | อาจารย์ประจำวิชา Physical Computing            |
 
 ## Tools
 
 - **Arduino IDE :** ใช้พัฒนา Source code ภาษา C เพื่อทำงานกับ บอร์ด Arduino UNO R4 WiFi และ ULTRASONIC
 
+  ![Arduino IDE](assets/img/Tool/arduinoIDE.jpg)
+
 - **HiveQM :** ใช้ส่งค่าที่ต้องการเข้า arduino IDE เพื่อนำค่าไปใช้ใน Source code
+
+  ![HiveQM](assets/img/Tool/HiveMQ.jpg)
 
 ## Source
 
