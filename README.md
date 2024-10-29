@@ -2,6 +2,8 @@
 
 Physical Computing Project 2024 - IT KMITL
 
+[สมาชิก](https://github.com/Prakorn2033/Ani-Count/blob/main/README.md#contributors)
+
 ## Introduction to Ani-Count
 
 สวัสดีครับ ใน Physical Computing Project ที่ผมจะมานำเสนอในโปรเจค Ani-Count 
