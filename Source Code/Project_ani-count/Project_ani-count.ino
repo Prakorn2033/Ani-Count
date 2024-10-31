@@ -13,8 +13,8 @@ const char MQTT_CLIENT_ID[] = "ani_count_62070115";  // ใส่ Client ID ท�
 const char MQTT_USERNAME[] = ""; // ถ้าไม่ต้องการ ให้เว้นว่าง
 const char MQTT_PASSWORD[] = ""; // ถ้าไม่ต้องการ ให้เว้นว่าง
 
-const char PUBLISH_TOPIC[] = "ani-count";    // Topic สำหรับ publish
-const char SUBSCRIBE_TOPIC[] = "ani-count";  // Topic สำหรับ subscribe
+const char PUBLISH_TOPIC[] = "ani_count";    // Topic สำหรับ publish
+const char SUBSCRIBE_TOPIC[] = "ani_count";  // Topic สำหรับ subscribe
 
 WiFiClient network;
 MQTTClient mqtt(256);
