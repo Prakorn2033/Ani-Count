@@ -60,6 +60,14 @@ Arm Cortex-M4 48 MHz 32 kB RAM 256 kB Flash ทำงานร่วมกับ
 
   ![HiveQM](assets/img/Tool/HiveMQ.jpg)
 
+- **Arduino UNO R4 WiFi :** Arduino UNO R4 WiFi เป็นบอร์ด Arduino รุ่นต่อจาก UNO R3 ใช้ชิพ RA4M1 จาก Renesas เป็น Arm Cortex-M4 48 MHz 32 kB RAM 256 kB เป็นบอร์ดที่นำมาใช้ในโปรเจคนี้ครับ
+  
+  ![Arduino UNO R4 WiFi](assets/img/Tool/arduinoR4wifi.jpg)
+
+- **Ultrasonic sensor :** เซนเซอร์ Ultrasonic ใช้เสียงสะท้อนกลับในการคำนวณวัดระยะทาง แม่นยำที่ 2 - 400 cm เพื่อมารับค่าระยะทางในการระบุจำนวนสัตว์เลี้ยงที่ผ่าน
+
+  ![**Ultrasonic sensor :**](assets/img/Tool/Ultrasonic_sensor.jpg)
+  
 ## Source
 
 - ### Github and Youtube
