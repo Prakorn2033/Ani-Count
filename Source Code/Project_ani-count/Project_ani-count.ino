@@ -4,17 +4,17 @@
 #define TRIG_PIN 9 //ต่อ TRIG เข้าช่อง 9
 #define ECHO_PIN 10 //ต่อ ECHO เข้าช่อง 10
 
-const char WIFI_SSID[] = "iPhone ของ ปรากร"; // ชื่อ Wi-Fi
-const char WIFI_PASSWORD[] = "pogth123456*";  // รหัสผ่าน Wi-Fi
+const char WIFI_SSID[] = ""; // ชื่อ Wi-Fi
+const char WIFI_PASSWORD[] = "";  // รหัสผ่าน Wi-Fi
 
-const char MQTT_BROKER_ADDRESS[] = "mqtt-dashboard.com";  //MQTT Broker ADDRESS
+const char MQTT_BROKER_ADDRESS[] = "";  //MQTT Broker ADDRESS
 const int MQTT_PORT = 1883; // ใช้ 1883 จะง่ายกว่า
-const char MQTT_CLIENT_ID[] = "ani_count_62070115";  // ใส่ Client ID ที่ไม่ซ้ำ
+const char MQTT_CLIENT_ID[] = "";  // ใส่ Client ID ที่ไม่ซ้ำ
 const char MQTT_USERNAME[] = ""; // ถ้าไม่ต้องการ ให้เว้นว่าง
 const char MQTT_PASSWORD[] = ""; // ถ้าไม่ต้องการ ให้เว้นว่าง
 
-const char PUBLISH_TOPIC[] = "ani_count";    // Topic สำหรับ publish
-const char SUBSCRIBE_TOPIC[] = "ani_count";  // Topic สำหรับ subscribe
+const char PUBLISH_TOPIC[] = "";    // Topic สำหรับ publish
+const char SUBSCRIBE_TOPIC[] = "";  // Topic สำหรับ subscribe
 
 WiFiClient network;
 MQTTClient mqtt(256);
